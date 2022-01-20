@@ -65,6 +65,7 @@ export default function Page ({ children, title, darkHeader, slug }) {
             <Link href="/help" d="block">FAQs &amp; Help</Link>
             <Link href="/docs" d="block">Legal Documents</Link>
             <Link href="/donate" d="block">Make a Donation</Link>
+            <Link href="https://twitter.com/codeday" target="_blank" d="block">Twitter</Link>
           </CustomLinks>
         </Footer>
       </Box>
