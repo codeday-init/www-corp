@@ -11,6 +11,8 @@ import Link from '@codeday/topo/Atom/Text/Link';
 
 const DOMAIN = 'https://www.codeday.org';
 
+//hello worrldd
+
 export default function Page ({ children, title, darkHeader, slug }) {
   const { cms } = useQuery();
   const { mission } = cms || {};
@@ -65,6 +67,7 @@ export default function Page ({ children, title, darkHeader, slug }) {
             <Link href="/help" d="block">FAQs &amp; Help</Link>
             <Link href="/docs" d="block">Legal Documents</Link>
             <Link href="/donate" d="block">Make a Donation</Link>
+            <Link href="https://twitter.com/codeday" target = "_blank" d="block">twitter</Link>
           </CustomLinks>
         </Footer>
       </Box>
